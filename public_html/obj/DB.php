@@ -14,7 +14,7 @@ class DB {
 
     function selectAll($table)
     {
-        $dbobj = $this->sql->query('SELECT * FROM ' . $table);
+        $dbobj = $this->sql->query('SELECT * FROM ' . $table . ' ORDER BY id DESC');
 
         $result = [];
         while ($row = $dbobj->fetch_assoc()) {

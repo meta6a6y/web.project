@@ -10,28 +10,59 @@ header {
     background: linear-gradient(to right, #ffffff, #ebeae6);
     height: 112px;
     padding: 24px 0;
+    display: flex;
+    justify-content: space-between; /* размещение контента между разделами на одном уровне */
+    align-items: center; /* выравнивание по вертикали */
 }
 header a#logo {
-    display: block;
-    float: left; /*плавающий блок*/
+    position: relative;
+    top: 38px;
+    /*display: block;*/
+    /*float: left; !*плавающий блок*!*/
+}
+header nav {
+    position: relative;
+    left: 250px;
+    bottom: 5px;
+}
+header nav ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li a {
+    color: #4d382a;
+}
+header nav ul li a:hover {
+    color: #bfa184;
+    /*text-decoration: underline;*/
+}
+header nav ul li {
+    display: inline;
+    margin-right: 8px;
 }
 header form {
+    position: relative;
     float: left;
-    margin-left: 100px;
-    width: 660px;
+    left: 600px;
+    bottom: 45px;
+    /*margin-left: 600px;*/
+    /*margin-bottom: 100px;*/
+    width: 450px;
     height: 48px;
     padding-top: 8px;
 }
 header form > input {
     box-sizing: border-box;
     border-radius: 25px;
-    width: 660px;
+    width: 100%;
     height: 48px;
     background: #ebeae6;
     color: #4d382a;
+    /*margin-left: 210px;*/
     border: none;
     font-size: 16px;
-    padding: 0 72px 0 20px;
+    padding: 0 42px 0 20px;
 }
 header form > input:focus {
     color: #4d382a;
@@ -43,15 +74,17 @@ header form > button {
     background: url("../img/search.png");
     position: relative;
     top: -40px;
-    left: 608px;
+    left: 410px;
 }
 header a.header_links {
     display: block;
     width: 32px;
     height: 32px;
+    position: relative;
     float: right;
+    bottom: 30px;
     margin-left: 40px;
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
 header a#header_link_user {
     background: url("../img/user.png");
@@ -66,14 +99,14 @@ main div#top_back {
 }
 main div#top_back h1 {
     font-size: 72px;
-    font-family: Century gothic, serif;
+    font-family: 'Century gothic', serif;
     line-height: 80px;
     color: #4d382a;
     width: 50%;
 }
 main div#top_back p {
     font-size: 20px;
-    font-family: Century gothic, serif;
+    font-family: 'Century gothic', serif;
     font-style: oblique;
     line-height: 28px;
     color: #4d382a;
@@ -81,7 +114,7 @@ main div#top_back p {
 }
 main h2 {
     font-size: 56px;
-    font-family: Century gothic, serif;
+    font-family: 'Century gothic', serif;
     margin: 24px 0;
     color: #4d382a;
 }
@@ -93,7 +126,7 @@ main > div#services > ul > li > img {
 }
 main p#services_text {
     font-size: 18px;
-    font-family: Century gothic, serif;
+    font-family: 'Century gothic', serif;
     font-style: oblique;
     margin-bottom: 24px;
     line-height: 24px;
@@ -109,15 +142,19 @@ main ul div {
 }
 main ul h3 {
     font-size: 25px;
-    font-family: Century gothic, serif;
+    font-family: 'Century gothic', serif;
     margin: 48px 0 24px 0;
     color: #4d382a;
 }
 main ul p {
     font-size: 18px;
-    font-family: Century gothic, serif;
+    font-family: 'Century gothic', serif;
     font-style: oblique;
     color: #4d382a;
+}
+main div a#arrow {
+    display: block;
+    float: left; /*плавающий блок*/
 }
 main {
     background: linear-gradient(to bottom, #ebeae6, #4828289B);

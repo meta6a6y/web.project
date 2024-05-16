@@ -7,4 +7,4 @@ require_once ($_SERVER['DOCUMENT_ROOT'] . '/themes/header.php');
 
 <?php
 require_once ($_SERVER['DOCUMENT_ROOT'] . '/themes/footer.php');
-
+?>
