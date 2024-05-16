@@ -1,3 +1,4 @@
+$${\color{#1F6FEB}WEB.PROJECT - многостраничный сайт на локальном сервере (project.test) тема: Приют sweetie, a house for homless kittens}$$
 <h1 style="color:#1F6FEB">WEB.PROJECT - многостраничный сайт на локальном сервере (project.test) тема: Приют sweetie, a house for homless kittens</h1>
 
 Приложение для локального сервера - OSPanel, в file: domains создать: file: project.test - file: public_html
