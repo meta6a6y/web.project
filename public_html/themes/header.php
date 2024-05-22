@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="index.php#services">Услуги</a></li>
-                <li><a href="second_index.php">Выбрать котика</a></li>
+                <li><a href="index.php#adoption">Усыновление</a></li>
                 <li><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
@@ -24,6 +24,6 @@
             <button type="submit"></button>
         </form>
         <a class="header_links" id="header_link_user" href="index.php"></a>
-        <a class="header_links" id="header_link_cart" href="index.php"></a>
+        <a class="header_links" id="header_link_cart" href="second_index.php"></a>
     </div>
 </header>

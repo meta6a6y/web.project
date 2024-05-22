@@ -1,0 +1,259 @@
+/* Основной контейнер */
+main {
+    background: linear-gradient(to bottom, #e9e8e4, #4828289B);
+}
+@media (max-width: 1220px) {
+    main {
+        width: 100%;
+    }
+    main h2 {
+        width: 100%;
+        text-align: center;
+    }
+}
+div.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media (max-width: 1220px) {
+    .container > p {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 1200px) {
+    header form {
+        display: none;
+    }
+}
+/* Заголовок */
+header {
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ffffff, #ebeae6);
+    height: 112px;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a#logo {
+    position: relative;
+    top: 38px;
+}
+
+header nav {
+    position: relative;
+    left: 260px;
+    bottom: 5px;
+}
+
+header nav ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: #4d382a;
+}
+
+header nav ul li a:hover {
+    color: #bfa184;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 8px;
+}
+
+header form {
+    position: relative;
+    float: left;
+    left: 600px;
+    bottom: 45px;
+    width: 450px;
+    height: 48px;
+    padding-top: 8px;
+}
+
+header form > input {
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 100%;
+    height: 48px;
+    background: #ebeae6;
+    color: #4d382a;
+    border: none;
+    font-size: 16px;
+    padding: 0 42px 0 20px;
+}
+
+header form > input:focus {
+    color: #4d382a;
+    outline: none;
+}
+
+header form > button {
+    width: 32px;
+    height: 32px;
+    background: url("../img/search.png");
+    position: relative;
+    top: -40px;
+    left: 410px;
+}
+
+header a.header_links {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    float: right;
+    bottom: 30px;
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+
+header a#header_link_user {
+    background: url("../img/user.png");
+}
+
+header a#header_link_cart {
+    background: url("../img/cart.png");
+}
+
+/* Основное содержимое */
+main div#top_back {
+    width: 100%;
+    height: 600px;
+    background: url("../img/back.jpg") center no-repeat;
+    background-size: cover;
+}
+
+main > div#top_back > div > h1 {
+    font-size: 72px;
+    font-family: 'Century gothic', serif;
+    line-height: 80px;
+    color: #4d382a;
+    width: 50%;
+    margin-top: 50px;
+}
+
+main div#top_back p {
+    font-size: 20px;
+    font-family: 'Century gothic', serif;
+    font-style: oblique;
+    line-height: 28px;
+    color: #36271D;
+    margin-top: 24px;
+}
+@media (max-width: 1220px) {
+    main > div#top_back > div > h1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+/*@media (max-width: 1200px) {*/
+/*    main div#top_back {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+main hr {
+    border-color: #4d382a;
+}
+
+main h2 {
+    font-size: 56px;
+    font-family: 'Century gothic bold', serif;
+    margin: 35px 0;
+    color: #4d382a;
+}
+
+main ul li {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+main a.button, main button {
+    box-sizing: border-box;
+    display: block;
+    height: 48px;
+    font-size: 16px;
+    line-height: 44px;
+    border: 2px solid #EBEAE6;
+    border-radius: 25px;
+    width: 130px;
+    text-align: center;
+    color: #4D382A;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #EBEAE6;
+}
+
+main a.button:hover, main button:hover {
+    text-decoration: underline;
+}
+
+main ul h3 {
+    font-size: 25px;
+    font-family: 'Century gothic bold', serif;
+    margin: 48px 0 24px 0;
+    color: #4d382a;
+}
+
+main ul p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-family: 'Century gothic', serif;
+    font-style: oblique;
+    color: #36271D;
+}
+/* Футер */
+footer {
+    background: linear-gradient(to bottom, #8f7c7c, #482828);
+}
+
+footer div#copy {
+    overflow: hidden;
+}
+
+footer div#contacts {
+    text-align: center;
+}
+
+footer div#contacts span {
+    color: #bfa184;
+    font-size: 16px;
+}
+
+footer > div > div {
+    padding: 24px 0;
+}
+
+footer div#contacts a {
+    margin-left: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+
+footer hr {
+    background: #1e1e1e;
+    height: 1px;
+}
+
+footer div#copy p {
+    display: block;
+    float: left;
+    color: #000000;
+    font-size: 16px;
+}
+
+footer div#copy span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 16px;
+}
